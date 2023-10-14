@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full bg-white">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+    ></script>
+
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="h-full">
+    <div>
+      <div class="fixed inset-y-0 z-50 flex w-72 flex-col">
+        <div
+          class="flex grow flex-col overflow-y-auto border-r border-gray-200 bg-white px-6"
+        >
+          <div
+            class="flex h-16 shrink-0 items-center font-semibold leading-6 text-gray-600"
+          >
+            <h2>Team: 39 - Assignment 2</h2>
+          </div>
+          <nav class="flex flex-1 flex-col">
+            <ul role="list" class="flex flex-1 flex-col gap-y-5">
+              <li>
+                <div class="text-xs font-semibold leading-6 text-gray-400">
+                  Assignment
+                </div>
+              </li>
+              <li>
+                <ul role="list" class="-mx-2 space-y-1">
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn selected cursor-pointer"
+                    data-md="topic"
+                  >
+                    Technology/Topic
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="opportunities"
+                  >
+                    Opportunities
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="risks"
+                  >
+                    Risks
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="choices"
+                  >
+                    Choices
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="ethical_reflections"
+                  >
+                    Ethical Reflections
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="references"
+                  >
+                    References
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <div class="text-xs font-semibold leading-6 text-gray-400">
+                  Process Support
+                </div>
+              </li>
+
+              <li>
+                <ul role="list" class="-mx-2 space-y-1 cursor-pointer">
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn"
+                    data-md="process/team_formation"
+                  >
+                    Team Formation
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="process/topic_proposal"
+                  >
+                    Topic Proposal
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="process/peer_evaluation"
+                  >
+                    Peer Evaluation
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="process/meeting_minutes"
+                  >
+                    Meeting Minutes
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="process/project_portfolio"
+                  >
+                    Project Portfolio
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="process/assessment_rubric"
+                  >
+                    Assessment Rubric
+                  </li>
+                  <li
+                    class="border py-2 px-6 rounded-md bg-gray-100 btn cursor-pointer"
+                    data-md="process/guideline_conformance_form"
+                  >
+                    Guidline Conformance
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+
+      <main class="pl-72">
+        <div id="target" class="px-8 py-10 flex justify-center">
+          <!-- Content -->
+          <zero-md
+            class="prose max-w-5xl w-full"
+            id="zero"
+            src="./md/topic.md"
+          ></zero-md>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
