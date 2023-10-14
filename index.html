@@ -7,14 +7,14 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@webcomponents/webcomponentsjs@2/webcomponents-loader.min.js"></script>
     <script
+      defer
       type="module"
-      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@2/dist/zero-md.min.js"
     ></script>
 
     <script defer src="./main.js"></script>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body class="h-full">
     <div>
@@ -135,11 +135,12 @@
       <main class="pl-72">
         <div id="target" class="px-8 py-10 flex justify-center">
           <!-- Content -->
-          <zero-md
-            class="prose max-w-5xl w-full"
-            id="zero"
-            src="./md/topic.md"
-          ></zero-md>
+
+          <zero-md class="prose max-w-5xl w-full" id="zero" src="./md/topic.md">
+            <template data-merge="append">
+              <link rel="stylesheet" href="./styles.css" />
+            </template>
+          </zero-md>
         </div>
       </main>
     </div>
