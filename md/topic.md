@@ -2,4 +2,6 @@
 
 ## Deploying Chat GPT as an Intelligent Tutoring System in Education.
 
-![ChatGPT's Image](https://assets.website-files.com/6344c9cef89d6f2270a38908/64148ed756708f9b82464c96_image-of-hand-holding-an-ai-face-looking-at-the-words-chatgpt-openai.webp)
+Over the past decades, the advancement of technology, particularly artificial intelligence (AI), has experienced rapid growth and has transformed education. The implementation of artificial intelligence has a significant impact on the teaching - learning process, reshaping both how students acquire knowledge and how educators deliver instruction. Specifically, Intelligent Tutors stand out as artificial intelligence (AI) programs, which assist students in their learning, identify areas where they may be struggling with the material, and then adjust tutoring strategies accordingly (Baecker, 2019, p. 71).
+
+In this era, ChatGPT, a large language model representing the new generation of artificial intelligence, has become an integral part of people's daily lives due to the ability to generate text, answer questions, complete tasks, and translate languages with high accuracy. Therefore, it is considered an Intelligent Tutoring System (ITS) because of its advancements such as personalized learning, homework assistance, and language learning to enhance students’ performance. However, the implementation of ChatGPT in education raises significant challenges and ethical considerations, including worries about privacy, less community interaction, and issues related to plagiarism (Allam et al., 2023).
